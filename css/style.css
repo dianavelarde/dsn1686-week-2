@@ -1,3 +1,7 @@
+body {
+  background-color: blanchedalmond;
+}
+
 h1 {
   font-family: Cookie, cursive;
   font-size: 5em;
@@ -15,4 +19,20 @@ p {
 .shop {
   padding-bottom: 2em;
   margin-left: 1.3em;
+}
+
+.b {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 5%;
+  display: inline-block;
+  margin: .8em;
+  font-family: Helvetica, sans-serif;
 }
