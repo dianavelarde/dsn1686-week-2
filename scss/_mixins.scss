@@ -1,0 +1,9 @@
+@mixin button{
+    padding: 1em;
+    border-radius: 5%;
+    margin: .8em;
+}
+
+@mixin header {
+padding-top: 2em;
+}
