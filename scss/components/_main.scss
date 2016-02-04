@@ -35,11 +35,6 @@ p {
     text-align: center;
 }
 
-.shop {
-    padding-bottom: 2em;
-    margin-left: 1.3em;
-}
-
 
 .b{
     display: inline-block;
@@ -54,15 +49,37 @@ p {
     text-decoration: none;
     display: inline-block;
     font-family: $helvetica;
-}
-
-.btn {
     i {
     vertical-align: middle;
     font-size: 2.5em;
     color: ($grey-dark);  
 }
 }
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    background-color: ($pink);
+    @include zoom;
+}
+
+.shop {
+    @include space;
+}
+
+ @media only screen and (min-width: 35em) {
+
+    .shop {
+        margin-left: 9em;
+}
+}
+    
+    @media only screen and (min-width: 60em) {
+
+    .shop {
+        margin-left: 35em;
+}
+     }
 
 
 

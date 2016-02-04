@@ -7,3 +7,13 @@
 @mixin header {
 padding-top: 2em;
 }
+
+@mixin space {
+    padding-bottom: 2em;
+    margin-left: 1.3em;
+}
+
+@mixin zoom {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
